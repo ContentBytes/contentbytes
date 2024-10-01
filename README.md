@@ -8,6 +8,8 @@ We strongly believe that exploring areas such as UX and UI, product design, trai
 
 [Join us on LinkedIn](https://www.linkedin.com/company/content-bytes/)
 
+[Join us on Facebook](https://www.facebook.com/people/Content-Bytes/61564025612434/)
+
 <!--
 **ContentBytes/contentbytes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
