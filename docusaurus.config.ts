@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Content Bytes',
+  tagline: 'Meetups for content community in Kraków, Poland',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -35,10 +35,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -55,22 +51,20 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    //image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Content Bytes',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Content Bytes logo',
         src: 'img/logo.svg',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'events',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Events',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
       ],
     },
     footer: {

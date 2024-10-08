@@ -4,6 +4,10 @@
  * work well for content-centric websites.
  */
 
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;
@@ -15,6 +19,12 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: 'Roboto Mono';
+  --ifm-font-family-monospace: 'Roboto Mono', monospace;
+  --ifm-heading-font-family: 'Pixelify Sans', sans-serif;
+  --ifm-heading-font-weight: 400;
+  --ifm-heading-color: #004D21;
+  --doc-sidebar-width: 230px !important;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,4 +37,9 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.hero--primary {
+  --ifm-hero-background-color: #D9D9D9;
+  --ifm-hero-text-color: black;
 }
