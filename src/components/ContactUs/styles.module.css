@@ -1,0 +1,21 @@
+.background {
+    background-color: #F8F9FA;
+    padding: 100px 150px;
+}
+
+.columns {
+    display: flex;
+    width: 100%;
+}
+
+.contact-description {
+    width: 50%;
+    min-width: fit-content;
+    padding-right: 100px;
+}
+
+.contact-info {
+    width: 50%;
+    min-width: 250px;
+    margin: auto;
+}

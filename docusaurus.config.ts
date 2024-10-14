@@ -60,9 +60,14 @@ const config: Config = {
       },
       items: [
         {
+          to: '/',
+          label: 'About',
+          position: 'right',
+        },
+        {
           type: 'docSidebar',
           sidebarId: 'events',
-          position: 'left',
+          position: 'right',
           label: 'Events',
         },
       ],

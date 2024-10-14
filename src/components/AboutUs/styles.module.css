@@ -1,3 +1,7 @@
+.background {
+    background-color: #F8F9FA;
+}
+
 .description {
     display: flex;
     justify-content: space-between;
@@ -6,7 +10,7 @@
 
 .description section {
     max-width: 800px;
-    padding: 20px;
+    padding: 80px;
 }
 
 image {
