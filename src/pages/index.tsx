@@ -5,6 +5,7 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import AboutUs from '../components/AboutUs';
 import Events from '../components/Events';
+import Organizers from '../components/Organizers';
 import ContactUs from '../components/ContactUs';
 
 import styles from './index.module.css';
@@ -39,6 +40,7 @@ export default function Home(): JSX.Element {
       <main>
         <AboutUs />
         <Events />
+        <Organizers />
         <ContactUs />
       </main>
     </Layout>

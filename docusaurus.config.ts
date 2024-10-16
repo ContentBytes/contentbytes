@@ -75,6 +75,16 @@ const config: Config = {
           position: 'right',
           label: 'Events',
         },
+        {
+          to: '#organizers',
+          position: 'right',
+          label: 'Organizers',
+        },
+        {
+          to: '#contact',
+          position: 'right',
+          label: 'Contact',
+        }
       ],
     },
     footer: {

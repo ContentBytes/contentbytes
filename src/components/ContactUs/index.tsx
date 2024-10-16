@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 
 export default function ContactUs() {
   return (
-    <div className={styles.background}>
+    <div id='contact' className={styles.background}>
       <div className={styles.columns}>
         <div className={styles["contact-description"]}>
           <h1>Contact us</h1>

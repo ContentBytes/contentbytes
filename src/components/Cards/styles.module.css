@@ -1,0 +1,36 @@
+.cards {
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.container {
+  background-color: #E5F6E6;
+  border-radius: 1px 10px 10px 10px;
+  border-color: #004D21;
+  border-style: solid;
+  margin-top: 30px;
+  min-width: 250px;
+  max-width: 250px;
+}
+
+.name {
+  font-weight: bold;
+  font-family: var(--ifm-heading-font-family);
+  
+}
+
+.title {
+  padding: 15px;
+  line-height: 25px;
+  white-space: pre-wrap;
+}
+
+.image {
+  height: 200px;
+  text-align: center;
+}
+
+/* .socials {
+  text-align: bottom;
+} */
