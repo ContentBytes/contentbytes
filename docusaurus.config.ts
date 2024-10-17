@@ -76,12 +76,12 @@ const config: Config = {
           label: 'Events',
         },
         {
-          to: '#organizers',
+          to: '/#organizers',
           position: 'right',
           label: 'Organizers',
         },
         {
-          to: '#contact',
+          to: '/#contact',
           position: 'right',
           label: 'Contact',
         }
